@@ -34,7 +34,7 @@ h1 {
     padding: 10px;
 }
 .inner {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
 }
 #header {
@@ -42,6 +42,9 @@ h1 {
 }
 #introduction {
     background-color: #ecf0f1;
+}
+#donate {
+    border-top: 1px solid #dddddd;
 }
 
 
@@ -55,17 +58,12 @@ h1 {
 }
 #footer a:hover {
 }
-#footer .social-icons a {
-    color: #fff;
-    font-size: 1.5em;
-    margin-right: 10px;
+#footer .bio {
+    font-weight: bold;
 }
-#footer .social-icons a:hover {
-    color: #ccc;
-    border: 0;
+#footer .bio a {
+    margin-left: 6px;
 }
-
-
 #nav {
     background-color: #bdc3c7;
 }
