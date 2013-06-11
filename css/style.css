@@ -103,7 +103,7 @@ h1 {
 }
 .eff-logo-link img {
     display: auto;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 .eff-logo-link:hover {
     border-bottom: 0;
@@ -130,6 +130,9 @@ h1 {
 }
 .photo-tiny {
     margin: 3px;
+}
+.photo-tiny img {
+    height: 64px;
 }
 a.photo-bordered, a.photo-tiny {
     border: 1px solid #aaaaaa;
