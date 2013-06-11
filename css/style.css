@@ -82,15 +82,15 @@ h1 {
     margin-right: 20px;
 }
 
+
+#sponsor {
+    text-align: center;
+    padding-top: 40px;
+}
+
 .sparkfun-logo-link {
     display: block;
-    margin: 0 auto;
     text-align: center;
-}
-.sparkfun-logo-link img {
-    display: auto;
-    width: 600px;
-    margin: auto;
 }
 .sparkfun-logo-link:hover {
     border-bottom: 0;
@@ -118,6 +118,9 @@ h1 {
 .photo {
     display: block;
     float: left;
+}
+.photo-block {
+    float: none;
 }
 .photo img {
     display: block;
