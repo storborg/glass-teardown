@@ -97,6 +97,41 @@ h1 {
 
 .screenshot {
     display: block;
-    margin: 0 auto;
+    margin: 40px auto;
     border: 1px solid #aaaaaa;
+}
+
+.photo {
+    display: block;
+    float: left;
+}
+.photo img {
+    display: block;
+}
+.photo:hover {
+    border: 0;
+}
+.photo-tiny {
+    margin: 3px;
+}
+a.photo-bordered, a.photo-tiny {
+    border: 1px solid #aaaaaa;
+}
+a.photo-bordered:hover, a.photo-tiny:hover {
+    border: 1px solid #2980b9;
+}
+
+.grid {
+    *zoom: 1;
+}
+.grid:before,
+.grid:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+}
+.grid:after {
+    clear: both;
 }
