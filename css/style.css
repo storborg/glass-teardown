@@ -44,7 +44,10 @@ h1 {
     background-color: #ecf0f1;
 }
 #donate {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #bbbbbb;
+}
+#hardware {
+    border-top: 1px solid #bbbbbb;
 }
 
 
