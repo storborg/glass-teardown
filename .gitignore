@@ -1,0 +1,10 @@
+# Silly OS X trash files.
+.DS_Store
+
+# vim backup files.
+.*.swp
+
+.swp
+
+# other editor backup files.
+*~
