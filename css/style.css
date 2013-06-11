@@ -95,10 +95,8 @@ h1 {
     border-bottom: 0;
 }
 
-.image-centered {
+.screenshot {
     display: block;
     margin: 0 auto;
-}
-.image-bordered {
     border: 1px solid #aaaaaa;
 }
