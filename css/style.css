@@ -44,7 +44,7 @@ h1 {
     background-color: #ecf0f1;
 }
 #donate {
-    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
 }
 
 
@@ -77,4 +77,17 @@ h1 {
     margin: 0;
     padding: 0;
     margin-right: 20px;
+}
+
+.eff-logo-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.eff-logo-link img {
+    display: auto;
+    margin: 30px auto;
+}
+.eff-logo-link:hover {
+    border-bottom: 0;
 }
