@@ -82,6 +82,20 @@ h1 {
     margin-right: 20px;
 }
 
+.sparkfun-logo-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.sparkfun-logo-link img {
+    display: auto;
+    width: 600px;
+    margin: auto;
+}
+.sparkfun-logo-link:hover {
+    border-bottom: 0;
+}
+
 .eff-logo-link {
     display: block;
     margin: 0 auto;
