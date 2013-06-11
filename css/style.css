@@ -90,7 +90,9 @@ h2 {
 
 #sponsor {
     text-align: center;
-    padding-top: 40px;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #bbbbbb;
 }
 
 .sparkfun-logo-link {

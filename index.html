@@ -24,14 +24,14 @@
 
 <div id="introduction" class="section">
   <div class="inner">
-    <h2>What is this Glass thing anyways?</h2>
+    <h1>What is this Glass thing anyways?</h1>
     <p>Google's latest and hottest gadget needs little introduction. Since its public unveiling in April 2012, the tiny head-mounted Android computer has been <a href="http://www.npr.org/blogs/alltechconsidered/2013/05/13/183468218/google-fights-glass-backlash-before-it-even-hits-the-street">causing controversy</a> and subjected to much <a href="http://whitemenwearinggoogleglass.tumblr.com">sociological analysis</a>. It is currently available in limited beta to eminent members of the tech community and to a selection of "Glass Explorers".  As members of the latter program, we are delighted to now be able to explore Glass.</p>
 
     <p>Growing up on a rich diet of dystopic tech fiction, we were filled by an equal mix of intrigue and concern about Glass and decided to take our model apart to bring you the first detailed view into the electronics guts of the device.</p>
 
     <blockquote>
       <p><em>Gargoyles represent the embarrassing side of the Central Intelligence Corporation. Instead of using laptops, they wear their computers on their bodies, broken up into separate modules that hang on the waist, on the back, on the headset. They serve as human surveillance devices, recording everything that happens around them. Nothing looks stupider; these getups are the modern-day equivalent of the slide-rule scabbard or the calculator pouch on the belt, marking the user as belonging to a class that is at once above and far below human society.</em></p>
-      <small><em>Snow Crash</em> by Neal Stephenson</small>
+      <small>&mdash;<em>Snow Crash</em> by Neal Stephenson</small>
     </blockquote>
 
   </div>
@@ -253,6 +253,29 @@
     <p>First we pried off the plastic casings around the display assembly and proximity sensors, located just next to the main prism.</p>
 
     <div class="grid">
+      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying.jpg">
+        <img src="teardown/teardown-display-case-prying-tiny.jpg" alt="" title="">
+      </a>
+
+      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying-2.jpg">
+        <img src="teardown/teardown-display-case-prying-2-tiny.jpg" alt="" title="">
+      </a>
+
+      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying-3.jpg">
+        <img src="teardown/teardown-display-case-prying-3-tiny.jpg" alt="" title="">
+      </a>
+     <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying.jpg">
+        <img src="teardown/teardown-display-case-prying-tiny.jpg" alt="" title="">
+      </a>
+
+      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying-2.jpg">
+        <img src="teardown/teardown-display-case-prying-2-tiny.jpg" alt="" title="">
+      </a>
+
+      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying-3.jpg">
+        <img src="teardown/teardown-display-case-prying-3-tiny.jpg" alt="" title="">
+      </a>
+
       <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-exploded.jpg">
         <img src="teardown/teardown-display-case-exploded-tiny.jpg" alt="" title="">
       </a>
@@ -445,9 +468,13 @@
 
     <p>Among other things, the flexprint PCB holds Glass' inertial sensor, an <a href="http://www.invensense.com/mems/gyro/mpu9150.html">InvenSense MPU-9150</a>.</p>
 
-    <h2>OLED Display</h2>
+    <h2>Display</h2>
 
-    <p>PLACEHOLDER discuss display</p>
+    <p>FIXME display notes - resolution?</p>
+
+    <p>The display inside glass is very small. It is adhered to the inside of the internal frame using light glue around the edge of the display board. We scraped off that glue with a dental pick and removed the board.</p>
+
+    <p>For scale, it is shown pictured on top of a US dime.</p>
 
     <div class="grid">
       <a class="photo photo-bordered photo-tiny" href="teardown/display-backside.jpg">
@@ -463,25 +490,19 @@
         <img src="teardown/display-board-removed-tiny.jpg" alt="" title="">
       </a>
 
-
       <a class="photo photo-bordered photo-tiny" href="teardown/display-board-removed-backside.jpg">
         <img src="teardown/display-board-removed-backside-tiny.jpg" alt="" title="">
       </a>
-
-
-
     </div>
 
     <h2>Optics</h2>
 
-    <p>PLACEHOLDER narrative: Folded light pathway, how the display is projected at your eye.  Camera seems to talk to CPU which talks to Display with no direct passthrough</p>
+    <p>Glass uses a folded light pathway, consisting of only a small handful of optical elements. Collectively they make the display's image appear to float a few feet from your face, in the top right corner of your vision. Steve Mann <a href="http://spectrum.ieee.org/geek-life/profiles/steve-mann-my-augmediated-life">expands upon these optical strategies in much more detail</a>, and describes some additional challenges.</p>
 
     <div class="grid">
-
       <a class="photo photo-bordered photo-tiny" href="teardown/optics-front-open.jpg">
         <img src="teardown/optics-front-open-tiny.jpg" alt="" title="">
       </a>
-
 
       <a class="photo photo-bordered photo-tiny" href="teardown/grating.jpg">
         <img src="teardown/grating-tiny.jpg" alt="" title="">
@@ -494,23 +515,13 @@
       <a class="photo photo-bordered photo-tiny" href="teardown/optics-path.jpg">
         <img src="teardown/optics-path-tiny.jpg" alt="" title="">
       </a>
-
-      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying.jpg">
-        <img src="teardown/teardown-display-case-prying-tiny.jpg" alt="" title="">
-      </a>
-
-      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying-2.jpg">
-        <img src="teardown/teardown-display-case-prying-2-tiny.jpg" alt="" title="">
-      </a>
-
-      <a class="photo photo-bordered photo-tiny" href="teardown/teardown-display-case-prying-3.jpg">
-        <img src="teardown/teardown-display-case-prying-3-tiny.jpg" alt="" title="">
-      </a>
     </div>
+
+    <p>In the final photo, you can see this optical pathway at work when the display is removed.</p>
 
     <h2>Camera</h2>
 
-    <p>PLACEHOLDER narrative: Tiniest flex cable with some really nifty stuff going on</p>
+    <p>In Glass, unlike some other augmented reality devices, the camera is not coaxially aligned with the wearer's eye. The camera and display appear to talk to the CPU independently, with no direct connection between each other.</p>
 
     <div class="grid">
       <a class="photo photo-bordered photo-tiny" href="teardown/camera-exposed.jpg">
@@ -522,8 +533,9 @@
       </a>
     </div>
 
-
     <h2>Summary</h2>
+
+    <p>FIXME manifest</p>
 
     <div class="grid">
       <a class="photo photo-bordered photo-tiny" href="teardown/exploded-isometric.jpg">
