@@ -67,6 +67,11 @@ h2 {
 #footer a:hover {
 }
 #footer .bio {
+    width: 360px;
+    margin-right: 40px;
+    float: left;
+}
+#footer .bio h3 {
     font-weight: bold;
 }
 #footer .bio a {
