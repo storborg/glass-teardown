@@ -91,3 +91,11 @@ h1 {
 .eff-logo-link:hover {
     border-bottom: 0;
 }
+
+.image-centered {
+    display: block;
+    margin: 0 auto;
+}
+.image-bordered {
+    border: 1px solid #dddddd;
+}
