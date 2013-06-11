@@ -38,8 +38,10 @@ h1 {
     margin: 0 auto;
 }
 #header {
-    background-color: #ecf0f1;
     text-align: center;
+}
+#introduction {
+    background-color: #ecf0f1;
 }
 
 
