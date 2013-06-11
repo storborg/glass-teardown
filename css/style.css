@@ -55,17 +55,12 @@ h1 {
 }
 #footer a:hover {
 }
-#footer .social-icons a {
-    color: #fff;
-    font-size: 1.5em;
-    margin-right: 10px;
+#footer .bio {
+    font-weight: bold;
 }
-#footer .social-icons a:hover {
-    color: #ccc;
-    border: 0;
+#footer .bio a {
+    margin-left: 6px;
 }
-
-
 #nav {
     background-color: #bdc3c7;
 }
