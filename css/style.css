@@ -30,6 +30,11 @@ h4, h5, h6 {
 h1 {
     margin-top: 30px;
 }
+h2 {
+    //margin-top: 50px;
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+}
 .section {
     padding: 10px;
 }
@@ -129,7 +134,8 @@ h1 {
     border: 0;
 }
 .photo-tiny {
-    margin: 3px;
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 .photo-tiny img {
     height: 64px;
