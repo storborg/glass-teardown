@@ -82,10 +82,15 @@ h1 {
     margin-right: 20px;
 }
 
+
+#sponsor {
+    text-align: center;
+    padding-top: 40px;
+}
+
 .sparkfun-logo-link {
     display: block;
     text-align: center;
-    padding: 20px 0;
 }
 .sparkfun-logo-link:hover {
     border-bottom: 0;
