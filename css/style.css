@@ -34,7 +34,7 @@ h1 {
     padding: 10px;
 }
 .inner {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
 }
 #header {
@@ -42,6 +42,9 @@ h1 {
 }
 #introduction {
     background-color: #ecf0f1;
+}
+#donate {
+    border-top: 1px solid #dddddd;
 }
 
 
