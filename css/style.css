@@ -144,7 +144,7 @@ h2 {
     margin-bottom: 6px;
 }
 .photo-tiny img {
-    height: 64px;
+    height: 80px;
 }
 a.photo-bordered, a.photo-tiny {
     border: 1px solid #aaaaaa;
