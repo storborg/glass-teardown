@@ -8,7 +8,7 @@ body {
     line-height: 1.5em;
 }
 img {
-    -webkit-border-radius: 5px;
+    //-webkit-border-radius: 5px;
 }
 a:link {
     color: #3498db;
@@ -97,5 +97,5 @@ h1 {
     margin: 0 auto;
 }
 .image-bordered {
-    border: 1px solid #dddddd;
+    border: 1px solid #aaaaaa;
 }
