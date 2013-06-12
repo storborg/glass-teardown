@@ -8,3 +8,6 @@
 
 # other editor backup files.
 *~
+
+# Intermediate CSS file
+css/all.css
