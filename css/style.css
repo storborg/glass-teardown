@@ -29,6 +29,7 @@ h4, h5, h6 {
 }
 h1 {
     margin-top: 30px;
+    line-height: 48px;
 }
 h2 {
     //margin-top: 50px;
@@ -166,4 +167,18 @@ a.photo-bordered:hover, a.photo-tiny:hover {
 }
 .grid:after {
     clear: both;
+}
+
+@media (max-width: 820px) {
+    .inner {
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+    }
+    #footer .bio {
+        width: 100%;
+    }
+    #footer hr {
+    }
 }
