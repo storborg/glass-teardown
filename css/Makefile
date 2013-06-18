@@ -1,7 +1,7 @@
 #!/bin/sh
 
-all.min.css: all.css
-	lessc -x all.css > all.min.css
+everything.min.css: everything.css
+	lessc -x everything.css > everything.min.css
 
-all.css: normalize.css font-awesome.css style.css
-	cat normalize.css font-awesome.css style.css > all.css
+everything.css: normalize.css font-awesome.css style.css
+	cat normalize.css font-awesome.css style.css > everything.css
