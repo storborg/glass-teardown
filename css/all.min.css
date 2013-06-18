@@ -423,4 +423,10 @@ a.photo-bordered:hover,a.photo-tiny:hover{border:1px solid #2980b9;}
 .grid{*zoom:1;}
 .grid:before,.grid:after{display:table;content:"";line-height:0;}
 .grid:after{clear:both;}
+#exploded-top{position:relative;}
+#exploded-top .overlay{position:absolute;width:800px;height:562px;background-image:url(../overlays/glass-teardown-exploded-top-overlay.png);opacity:0.0;transition:opacity 0.25s ease-in-out;-moz-transition:opacity 0.25s ease-in-out;-webkit-transition:opacity 0.25s ease-in-out;}
+#exploded-top:hover .overlay{opacity:1.0;}
+#exploded-isometric{position:relative;}
+#exploded-isometric .overlay{position:absolute;width:800px;height:533px;background-image:url(../overlays/exploded-isometric-overlay.png);opacity:0.0;transition:opacity 0.25s ease-in-out;-moz-transition:opacity 0.25s ease-in-out;-webkit-transition:opacity 0.25s ease-in-out;}
+#exploded-isometric:hover .overlay{opacity:1.0;}
 @media (max-width:820px){.inner{max-width:100%;} img{max-width:100%;} #footer .bio{width:100%;}}
